@@ -115,6 +115,9 @@ export default merge(baseConfig, {
           },
           {
             loader: 'sass-loader',
+            options: {
+              implementation: require("sass")
+            }
           },
         ],
       },
@@ -140,6 +143,9 @@ export default merge(baseConfig, {
           },
           {
             loader: 'sass-loader',
+            options: {
+              implementation: require("sass")
+            }
           },
         ],
       },

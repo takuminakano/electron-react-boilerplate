@@ -52,7 +52,12 @@ export default merge(baseConfig, {
             },
           },
           'css-loader',
-          'sass-loader'
+          {
+            loader: 'sass-loader',
+            options: {
+             implementation: require("sass")
+            }
+          },
         ],
       },
       // WOFF Font
