@@ -150,7 +150,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
-    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
     "@babel/plugin-proposal-decorators": "^7.12.1",
     "@babel/plugin-proposal-do-expressions": "^7.12.1",
     "@babel/plugin-proposal-export-default-from": "^7.12.1",
@@ -187,7 +187,7 @@
     "@types/react-test-renderer": "^16.9.3",
     "@types/webpack-env": "^1.15.2",
     "@typescript-eslint/eslint-plugin": "^4.8.1",
-    "@typescript-eslint/parser": "^4.8.1",
+    "@typescript-eslint/parser": "^4.28.3",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.1.0",
     "babel-loader": "^8.2.2",
